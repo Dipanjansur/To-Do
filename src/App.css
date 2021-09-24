@@ -1,5 +1,10 @@
+.top_it{
+  margin-top:0px;
+}
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(119, 247, 93), yellow);
 }
 
 .App-logo {
@@ -26,6 +31,15 @@
 
 .App-link {
   color: #61dafb;
+}
+.footer {
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  text-align: center;
+  background-color: tomato;
+  color: white;
 }
 
 @keyframes App-logo-spin {
